@@ -1,17 +1,27 @@
 {
   "name": "notify",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "slider.js",
   "scripts": {
-    "compile:sass": "node-sass -w scss/ -o dist/css --recursive"
+    "compile:sass": "node-sass -w scss/ -o dist/css --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Mariusz",
   "license": "ISC",
+  "homepage": "https://mariuszr93.github.io/notify",
   "dependencies": {
     "gh-pages": "^2.2.0"
   },
   "devDependencies": {
     "node-sass": "^4.13.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mariuszr93/notify.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Mariuszr93/notify/issues"
+  },
+  "description": ""
 }
