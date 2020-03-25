@@ -4,7 +4,7 @@
   "main": "slider.js",
   "scripts": {
     "compile:sass": "node-sass -w scss/ -o dist/css --recursive",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d "
   },
   "author": "Mariusz",
   "license": "ISC",
