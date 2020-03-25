@@ -1,0 +1,17 @@
+ @font-face {
+    font-family: HelveticaNeue;
+    src: url(/dist/assets/fonts/HelveticaNeueMedium.ttf);
+  }
+
+  .left-margin {
+    &-4 {
+        margin-left: 16rem;
+        
+    }
+
+    &-2 {
+        margin-left: 7rem;
+    }
+  }
+
+ 

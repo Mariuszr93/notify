@@ -1,0 +1,307 @@
+@import 'config';
+
+@media only screen and (max-width: 600px)
+   {
+
+    body {
+
+#kv {
+  
+      .kv__content {
+        background:  $bg-image-mobile no-repeat center right/ cover;
+        text-shadow: 1px 2px rgb(0, 0, 0);
+        margin-left: 0;
+       
+        .content {
+            padding-top: 35%;
+            margin-left: 2rem;
+            
+            .icons {
+              padding-top: 3rem;
+            }
+        }
+        
+    }
+  }
+
+    #features   {
+      
+      padding-top: 2rem;
+       .features__container {
+        margin: 0 auto;
+        height: 100%; 
+        grid-template-columns: 1fr;
+
+        .feature {
+          padding: 1rem;
+        }
+       }
+  }
+
+  #contact {
+    height: 100%;
+    margin-top: 3rem;
+    .contact__container {
+        margin: 0.5rem;
+      display: grid;
+      grid-template-columns:  1fr;
+      
+  }
+
+  .contact__form {
+    display: grid;
+    grid-template-columns: repeat(1fr);
+    text-align: left;
+    padding: 2rem;
+    
+    .contact__title {
+      text-align: center;
+    }
+
+.contact__desc {
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+font-family: HelveticaNeue, sans-serif;
+color: $grey-font;
+width: 35ch;
+
+}
+
+input  {
+  display: block;
+  width: 250px;
+  height: 50px;
+  border-radius: 15px;
+  border: 1px solid #b1b1b1cb;
+   position: absolute;
+  font-family: HelveticaNeue, sans-serif;
+  font-size: 1rem;
+ 
+}
+
+button {
+  display: block;
+   position: relative;
+  height: 50px;
+  width: 120px;
+  left: 180px;
+  border: 0;
+  border-radius: 0 15px 15px 0;
+  background-color: $main-color;
+  cursor: pointer;
+  color: #fff;
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+  }
+
+.movie {
+  padding: 0;
+  
+  iframe {
+    width: 350px;
+  }
+}
+
+  }
+
+#testimonials {
+  height: 75vh;
+  .person__review {
+    padding-top: 4rem;
+    text-align: center;
+
+    p {
+        line-height: 1.5rem;
+        font-family: HelveticaNeue, sans-serif;
+        color: $grey-font;
+        font-style: italic;
+        width: 40ch;
+    }
+
+    h3 {
+        padding-top: 1rem;
+        font-family: Raleway, sans-serif;
+    }
+}
+
+.person__gallery {
+  grid-template-rows:repeat(1, 1fr);
+  grid-gap: 1rem;
+  padding: 3rem 3rem 0 3rem;
+}
+
+.testimonials-b {
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+  align-items: center;
+  
+
+  .social-icon {
+
+    margin-left: 0.5rem;
+
+  }
+}
+}
+}
+
+#main-footer {
+  height: 30vh;
+  
+  .content {
+    
+    margin: 0 auto;
+    ul {
+      padding-top: 1rem;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     font-family: HelveticeNeue, sans-serif;
+     font-size: 1rem;
+     
+     li {
+    
+         padding-top: 0.5rem;
+     }
+    } 
+
+ a {
+     color: $grey-font;
+     
+ }
+}
+}
+}
+}
+
+@media screen and (min-device-width: 768px)  and (max-device-width: 1023px) {
+
+  body {
+      h1 {
+        font-size: 8rem;
+      }
+    #kv {
+      
+          .kv__content {
+
+            background:  $bg-image no-repeat  center right / cover;
+            text-shadow: 1px 2px rgb(0, 0, 0);
+        
+            .content {
+              
+                padding-top: 30%;
+                margin-left: 15rem;
+                
+                .description {
+                  font-size: 2rem;
+                }
+
+
+                .icons {
+                  transform: scale(1.5);
+                  padding-top: 3rem;
+                  padding-left: 3rem;
+                }
+            }
+            
+        }
+      }
+
+
+        #features   {
+          
+          padding-top: 2rem;
+           .features__container {
+            margin: 0 auto;
+            height: 100%; 
+            grid-template-columns: 1fr;
+    
+            .feature {
+              padding: 1rem;
+            }
+           }
+      }
+    
+      #contact {
+        height: 100%;
+        margin-top: 3rem;
+        .contact__container {
+          margin: 0 auto;
+          display: grid;
+      }
+    
+      .contact__form {
+        display: grid;
+        grid-template-columns: repeat(1fr);
+        text-align: left;
+        padding: 2rem;
+      
+    .contact__desc {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      width: 35ch;
+    }
+    
+    input  {
+      display: block;
+      width: 250px;
+      height: 50px;
+    }
+    
+    button {
+      display: block;
+       position: relative;
+      height: 50px;
+      width: 120px;
+      left: 180px;
+    }
+      }
+    
+    .movie {
+      padding: 0;
+      
+      iframe {
+        width: 350px;
+      }
+    }
+      }
+    
+    #testimonials {
+      height: 40vh;
+   
+    .person__gallery {  
+      grid-template-rows:repeat(1, 1fr);
+      grid-gap: 1rem;
+       padding: 3rem 3rem 0 3rem;
+    }
+    }
+    
+    #main-footer {
+      height: 20vh;
+      
+      .content {
+        
+        margin: 0 auto;
+        ul {
+          padding-top: 1rem;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         font-family: HelveticeNeue, sans-serif;
+         font-size: 1rem;
+         li {
+             padding-top: 0.5rem;
+         }
+        } 
+    }
+    }
+    
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "notify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass -w scss/ -o dist/css --recursive"
+  },
+  "author": "Mariusz",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
